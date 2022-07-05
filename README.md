@@ -41,11 +41,11 @@ Reprise de projet.
 
 # Planing
     /*
-    Date d'ajout: 01/07/2022 
-    Motif: Création de la page forgot password qui doit être ultra responsive.
-    fichier:  Créer un nouveau fichier .php dans /htdocs
+    Date d'ajout: 05/07/2022 
+    Motif: Création de la page forgot password qui doit être ultra responsive et Création du card profil qui doit être ultra responsive.
+    fichier:  Créer de nouveau fichier .php dans /htdocs
     Job de: # HASSIMIOU #
-    Délais: 48 H
+    Délais: 60 H
     Statu: ......
     Date FIn:.....
     Qualiter:.....
@@ -53,16 +53,16 @@ Reprise de projet.
     */  
 
     /*
-    Date d'ajout: 01/07/2022 
-    Motif: Création du card profil qui doit être ultra responsive.
+    Date d'ajout: 05/07/2022 
+    Motif: Création de la page d'acceuille login signup et la navbar.
     fichier:  Créer un nouveau fichier .php dans /htdocs
-    Job de: # HASSIMIOU #
-    Délais: 48 H
+    Job de: # PELLEL #
+    Délais: 73 H
     Statu: ......
     Date FIn:.....
     Qualiter:.....
     commentaires:.....
-    */ 
+    */
 ## Qualiter Et Commentaire
    
    
