@@ -38,6 +38,8 @@ Reprise de projet.
     ## Noublie pas de me donner une note sur le projet que je vien de terminer les notes varie de 0/5 à 5/5
 
     ## Je vous pris de Respecter les délais du planing.
+    
+    ## Avant de commence a bosser il faut faire un push.
 
 
 # Planing
@@ -46,7 +48,7 @@ Reprise de projet.
     Motif: Création de la page forgot password qui doit être ultra responsive et Création du card profil qui doit être ultra responsive.
     fichier:  Créer de nouveau fichier .php dans /htdocs
     Job de: # HASSIMIOU #
-    Délais: 60 H
+    Délais: 60 H T-36h
     Statu: ......
     Date FIn:.....
     Qualiter:.....
@@ -58,8 +60,8 @@ Reprise de projet.
     Motif: Création de la page d'acceuille login signup et la navbar.
     fichier:  Créer un nouveau fichier .php dans /htdocs
     Job de: # PELLEL #
-    Délais: 73 H
-    Statu: ......
+    Délais: 73 H T-48h
+    Statu: Encoure
     Date FIn:.....
     Qualiter:.....
     commentaires:.....
