@@ -3,6 +3,7 @@
   <?php include "Includes/head.php" ?>
   <link rel="stylesheet" href="assets/style_Profile.css" />
   <body>
+    <?php include "Includes/navbar.php" ?>
     <div class="wrapper">
       <div class="profile-top">
         <div class="profile-image"></div>
@@ -11,7 +12,7 @@
       <div class="profile-bottom">
         <div class="profile-infos">
           <div class="main-infos">
-            <h3 class="name">Pseudos</h3>
+            <h3 class="name">Pseudo</h3>
           </div>
           <p class="email">Email de Gnogué@gmail.com</p>
           <p class="ville"><ion-icon name="location"></ion-icon>Gnogué City</p>

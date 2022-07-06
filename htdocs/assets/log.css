@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #0d6efd;
-}
-
 .section_1{
     margin-top: 50px;
     height: 70vh;
@@ -24,7 +20,7 @@ body {
     background: #ffffff;
 }
 
-.login h1 {
+h1 {
     font-size: 36px;
     margin-bottom: 25px;
 }

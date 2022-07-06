@@ -5,7 +5,15 @@
 
 <!-- CSS File -->
 <link rel="stylesheet" href="assets/log.css">
+<style>
+    .section_1{
+        margin-top:100px;
+    }
+</style>
 <body>
+    <header>
+        <?php include "Includes/navbar.php" ?>
+    </header>
     <section class="section_1">
         <div class="login">
 
@@ -35,7 +43,7 @@
             </div>
 
             <div class="form-group was-validated">
-                <p class="p">Vous n'avez pas de Compte, alors <a class="ap_2" href="Signup.php">Créer un compte</a></p>
+                <p class="p">Vous n'avez pas de Compte, alors <a class="ap_2" href="Signup.php">Inscrivez-vous</a></p>
             </div>
             <input class="btn btn-success w-100" type="submit" value="Connectez-vous">
         </form>

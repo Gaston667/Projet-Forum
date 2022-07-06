@@ -2,22 +2,32 @@
 <html lang="en">
 <title>Document</title>
 <?php include "Includes/head.php" ?>
+<link rel="stylesheet" href="assets/log.css">
 
 <!-- CSS File -->
-<link rel="stylesheet" href="assets/log.css">
 <style>
+    .section_1{
+        margin-top:120px;
+        height: 105vh;
+        
+    }
+    
+    @media (max-width:399px) {
         .section_1{
-            margin-top:0px;
-            height: 95vh;
+            margin-top:130px;
+            height: 105vh;
+        
         }
-    </style>
+    }
+</style>
 <body>
+    <header>
+    <?php include "Includes/navbar.php" ?>
+    </header>
     <section class="section_1">
         <div class="login">
-
-        <h1 class="text-center">Bienvenue!</h1>
-
         <form class="needs-validation">
+            <h1 class="text-center">Bienvenue!</h1>
             <div class="form-group was-validated">
                 <label class="form-label" for="pseudo">Pseudo</label>
                 <input class="form-control" type="text" id="pseudo" required>
@@ -51,11 +61,15 @@
                 <label class="form-check-label" for="check">Remember me</label>
             </div> -->
             <div class="form-group was-validated">
-                <p class="p">Mot de passe oublié ? <a class="ap" href="">OUI</a></p>
+                <label class="form-label" for="email">Comfirmer mot de passe</label>
+                <input class="form-control" type="password" id="password" required>
+                <div class="invalid-feedback">
+                    Veuillez entrer votre mot de passe
+                </div>
             </div>
 
             <div class="form-group was-validated">
-                <p class="p">Vous n'avez pas de Compte, alors <a class="ap_2" href="Signup.php">Créer un compte</a></p>
+                <p class="p">Vous avez un Compte, alors <a class="ap_2" href="login.php">Connectez-vous</a></p>
             </div>
             <input class="btn btn-success w-100" type="submit" value="Connectez-vous">
         </form>
