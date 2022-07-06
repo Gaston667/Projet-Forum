@@ -1,41 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #4a4eb4;
+
+body {
+    background: #0d6efd;
 }
-.log{
+
+.section_1{
+    margin-top: 50px;
     height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login{
-    width: 360px;
+.login {
+    width: 400px;
     height: min-content;
     padding: 20px;
-    border-radius: 15px;
-    background-color: #fff;
+    border-radius: 12px;
+    background: #ffffff;
 }
 
-.login h1{
+.login h1 {
     font-size: 36px;
-    margin-top: 25px;
-    text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
-.login form{
+.login form {
     font-size: 20px;
 }
 
-.login form .form-group{
+.login form .form-group {
     margin-bottom: 12px;
 }
 
-.login form input[type="submit"]{
+.login form input[type="submit"] {
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.p{
+    font-size: 0.8em;
+}
+
+.p a{
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+@media (max-width:399px) {
+    .p .ap_2{
+        display: flex;
+        flex-direction: column;
+    }
 }
