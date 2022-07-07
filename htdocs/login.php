@@ -6,6 +6,9 @@
 <!-- CSS File -->
 <link rel="stylesheet" href="assets/log.css">
 <style>
+    body{
+        background: #2e306c;
+    }
     .section_1{
         margin-top:100px;
     }
@@ -19,7 +22,7 @@
 
         <h1 class="text-center">Bienvenue!</h1>
 
-        <form class="needs-validation">
+        <form class="needs-validation" method="POST">
             <div class="form-group was-validated">
                 <label class="form-label" for="pseudo">Pseudo</label>
                 <input class="form-control" type="text" id="pseudo" required>
