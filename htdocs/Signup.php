@@ -1,7 +1,7 @@
 <?php require "actions/traitementSignup.php" ?>
 <!DOCTYPE html>
 <html lang="en">
-<title>Document</title>
+<title>Gnogué - sign up</title>
 <?php include "Includes/head.php" ?>
 <link rel="stylesheet" href="assets/log.css">
 
@@ -30,19 +30,18 @@
         <div class="login">
         <form class="needs-validation">
             <h1 class="text-center">Bienvenue!</h1>
-
             <?php if (isset($msgError)){echo "<p>$msgError</p";}?>              
             
 
             <div class="form-group was-validated">
                 <label class="form-label" for="pseudo">Pseudo</label>
-                <input class="form-control" type="text" name="pseudo" required>
+                <input class="form-control" type="text" name="pseudo"  placeholder="N'utiliser pas vortre nom propre" required>
                 <div class="invalid-feedback">
                     Veuillez saisir votre pseudo
                 </div>
             </div>
             <div class="form-group was-validated">
-                <label class="form-label" for="email">Adresse gmail</label>
+                <label class="form-label" for="email">Adresse mail</label>
                 <input class="form-control" type="email" name="email" required>
                 <div class="invalid-feedback">
                     Veuillez saisir votre adresse gmail

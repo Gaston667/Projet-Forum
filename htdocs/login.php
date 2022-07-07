@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Document</title>
+<title>Gnogué - login</title>
 <?php include "Includes/head.php" ?>
 
 <!-- CSS File -->

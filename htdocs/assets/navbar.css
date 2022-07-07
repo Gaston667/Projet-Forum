@@ -66,6 +66,7 @@ nav .icon-burger {
     top: 50%;
     transform: translateY(-50%);
 }
+
 nav .icon-burger .line {
     width: 30px;
     height: 5px;
@@ -74,7 +75,7 @@ nav .icon-burger .line {
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     nav .logo {
         float: none;
         width: auto;
