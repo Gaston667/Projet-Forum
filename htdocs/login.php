@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Gnogué - login</title>
-<?php include "Includes/head.php" ?>
+<?php
+    $title = "login";
+    require "Includes/header.php";
+?>
 
 <!-- CSS File -->
-<link rel="stylesheet" href="assets/log.css">
-<style>
-    body{
-        background: #2e306c;
-    }
-    .section_1{
-        margin-top:100px;
-    }
-</style>
-<body>
-    <header>
-        <?php include "Includes/navbar.php" ?>
-    </header>
+    <style>
+        body{
+            background: #2e306c;
+        }
+        .section_1{
+            margin-top:100px;
+        }
+    </style>
+
     <section class="section_1">
         <div class="login">
 

@@ -1,31 +1,27 @@
-<?php require "actions/traitementSignup.php" ?>
-<!DOCTYPE html>
-<html lang="en">
-<title>Gnogué - sign up</title>
-<?php include "Includes/head.php" ?>
-<link rel="stylesheet" href="assets/log.css">
+<?php 
+    $title = "Signup";
+    require "Includes/header.php";
+?>
 
-<!-- CSS File -->
-<style>
-    body{
-        background: #2e306c;
-    }
-    .section_1{
-        margin-top:83px;
-        height: 90vh;
-        
-    }
-    
-    @media screen and (max-width:400px) {
-        .section_1{
-            margin-top:95px;        
+    <!-- CSS File -->
+    <style>
+        body{
+            background: #2e306c;
         }
-    }
-</style>
-<body>
-    <header>
-    <?php include "Includes/navbar.php" ?>
-    </header>
+        .section_1{
+            margin-top:83px;
+            height: 90vh;
+        
+        }   
+    
+        @media screen and (max-width:400px) {
+            .section_1{
+                margin-top:95px;        
+            }
+        }
+    </style>
+
+    
     <section class="section_1">
         <div class="login">
         <form class="needs-validation">

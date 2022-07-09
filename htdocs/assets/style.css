@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/Gnogué\ emoji.png") no-repeat center;
+    background: url("../images/Gnogué.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -276,10 +276,11 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 15px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 5px;
 }
 .services .serv-content .card:hover{
     background: crimson;
@@ -419,7 +420,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.teams .carousel .card:hover video{
     border-color: #fff;
 }
 .owl-dots{
