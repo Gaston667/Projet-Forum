@@ -2,26 +2,43 @@
     $title = "Signup";
     require "Includes/header.php";
 ?>
-
+<link rel="stylesheet" href="../assets/Framework/bootstrap.css"/>
+ 
     <!-- CSS File -->
     <style>
         body{
             background: #2e306c;
         }
         .section_1{
-            margin-top:83px;
+            margin-top:0px;
             height: 90vh;
         
         }   
+        a{
+            text-decoration: none!important
+        }
+
+        @media(max-width: 405px){
+            .login{
+                border-radius: 0px;
+            }
+        }
     
         @media screen and (max-width:400px) {
             .section_1{
-                margin-top:95px;        
+                margin-top:0px;        
             }
         }
     </style>
 
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     
+    <?php
+        require 'Includes/navbar.php' 
+    ?>
     <section class="section_1">
         <div class="login">
         <form class="needs-validation">
@@ -77,5 +94,8 @@
 
         </div>
     </section>
+
+    <?php require "Includes/footer.php" ?>
+
 </body>
 </html>

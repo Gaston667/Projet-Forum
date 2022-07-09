@@ -8,6 +8,8 @@
     }
 ?>
 
+
+
 <nav class="navbar">
     <div class="max-width">
         <div class="logo"><a href="#">Gnogué <span>City.</span></a></div>
@@ -15,9 +17,10 @@
             <?= nav_item('/index.php', 'home', "/index.php#home");?>
             <li><a href="/index.php#about" class="menu-btn">About</a></li>
             <li><a href="/index.php#services" class="menu-btn">Dernier-post</a></li>
-            <li><a href="../login.php" class="menu-btn">conexion</a></li>
-            <li><a href="/index.php#team" class="menu-btn">teams</a></li>
-            <?= nav_item('/contact.php', 'contact', "/contact.php#contact");?>
+            <!-- <li><a href="../login.php" class="menu-btn">conexion</a></li> -->
+            <li><a href="/index.php#teams" class="menu-btn">teams</a></li>
+            <?= nav_item('/login.php', 'Connexion', "../login.php");?>
+
         </ul>
         <div class="menu-btn">
             <i class="fas fa-bars"></i>

@@ -14,9 +14,8 @@
     </title>
 
     <link rel="stylesheet" href="../assets/style.css">
-    <!-- <link rel="stylesheet" href="../assets/navbar.css"> -->
     <link rel="stylesheet" href="../assets/log.css">
-    <!-- <link rel="stylesheet" href="../assets/Framework/bootstrap.css"/> -->
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -26,9 +25,5 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
-<body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <?php require 'menu.php' ?>
+
     

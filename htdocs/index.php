@@ -2,6 +2,14 @@
     $title = "Acceuille";
     require "Includes/header.php";
 ?>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <?php
+        require 'Includes/menu.php' 
+    ?>
 
     <!-- home section start -->
     <section class="home" id="home">
@@ -43,6 +51,8 @@
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -50,6 +60,8 @@
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Advertising</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -57,6 +69,8 @@
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -64,6 +78,8 @@
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
                         <p>Loreml ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -71,6 +87,8 @@
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -78,6 +96,8 @@
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"><span>18</span> Info</div>
+                        <div class="text"><span>1</span> Intox</div>
                     </div>
                 </div>
             </div>
@@ -150,7 +170,7 @@
                 <a href="../Profile_1.php">
                 <div class="card">
                     <div class="box">
-                        <video src="images/profile-1.jpeg" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/img/Gnogué (2).mp4" alt="">
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>
@@ -159,7 +179,7 @@
                 <a href="../Profile_2.php">
                 <div class="card">
                     <div class="box">
-                        <video muted="" loop="infinite" src="/images/img/Gnogué (1).mp4" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/img/Gnogué (1).mp4" alt="">
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>

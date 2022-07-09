@@ -79,7 +79,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background-color: #111111;
+    /* background-color: #111111; */
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -121,7 +121,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #9f4393;
+    color: #c1adc6;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -138,12 +138,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #A5C0DD;
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #000;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -199,18 +199,20 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    /* background: crimson; */
+    background: #A5C0DD;
+
+    color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #A5C0DD;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #A5C0DD;
     background: none;
 }
 
@@ -243,18 +245,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: #A5C0DD;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #A5C0DD;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #A5C0DD;
     background: none;
 }
 

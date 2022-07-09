@@ -2,17 +2,48 @@
     $title = "login";
     require "Includes/header.php";
 ?>
-
+<link rel="stylesheet" href="../assets/Framework/bootstrap.css"/>
 <!-- CSS File -->
     <style>
         body{
             background: #2e306c;
         }
         .section_1{
-            margin-top:100px;
+            margin-top: 0px;
+            margin-bottom: 19px;
+            height: 81vh;
+        }
+        a{
+            text-decoration: none!important
+        }
+        .navbar .logo a {
+            margin-right: 50px;
+        }
+        .navbar{
+            background-color: #a5c0dd;
+        }
+
+        @media(max-width: 405px){
+            .login{
+                border-radius: 0px;
+            }
+        }
+
+        @media(max-width:400px) {
+            .section_1{
+                margin-top:0px;        
+            }
         }
     </style>
 
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <?php
+        require 'Includes/navbar.php' 
+    ?>
     <section class="section_1">
         <div class="login">
 
@@ -49,5 +80,8 @@
 
         </div>
     </section>
+
+    <?php require "Includes/footer.php" ?>
+
 </body>
 </html>
