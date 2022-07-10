@@ -39,7 +39,7 @@ Reprise de projet.
 
     ## Je vous pris de Respecter les délais du planing.
     
-    ## Avant de commence a bosser il faut faire un push.
+    ## Avant de commence a bosser il faut faire un pull.
 
 
 # Planing
@@ -55,19 +55,19 @@ Reprise de projet.
     commentaires:.....
     */  
 
+## Qualiter Et Commentaire
+   
     /*
     Date d'ajout: 05/07/2022 
     Motif: Création de la page d'acceuille login signup et la navbar.
     fichier:  Créer un nouveau fichier .php dans /htdocs
     Job de: # PELLEL #
     Délais: 73 H T-48h
-    Statu: Encoure
-    Date FIn:.....
+    Statu: Fin
+    Date FIn: 10/07/2022
     Qualiter:.....
     commentaires:.....
     */
-## Qualiter Et Commentaire
-   
    
 ## HISTORIQUE
 
