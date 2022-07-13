@@ -44,11 +44,23 @@ Reprise de projet.
 
 # Planing
     /*
-    Date d'ajout: 05/07/2022 
+    Date d'ajout: 13/07/2022 
+    Motif: creation du fomulaire d'inscription backand et bdd
+    fichier: actions/deconex-conex/traitementSignup.php
+    Job de: # PELLEL #
+    Délais: 72H
+    Statu: ......
+    Date FIn:.....
+    Qualiter:.....
+    commentaires:.....
+    */ 
+
+    /*
+    Date d'ajout: 13/07/2022 
     Motif: Création de la page forgot password qui doit être ultra responsive et Création du card profil qui doit être ultra responsive.
     fichier:  Créer de nouveau fichier .php dans /htdocs
     Job de: # HASSIMIOU #
-    Délais: 60 H T-36h
+    Délais: 72H
     Statu: ......
     Date FIn:.....
     Qualiter:.....

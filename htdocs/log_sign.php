@@ -2,7 +2,7 @@
     $title = "Conexion et inscription";
     require "Includes/header.php";
 ?>
-<body>
+<body class="bod">
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -30,16 +30,16 @@
                         <p class="social-text">Incrivez-vous avec vos plateforme social</p>
                         <div class="social-media">
                             <a href="" class="social-icon">
-                                <i class="fab fa-facebook">p</i>
+                                <i class="fab fa-facebook"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-twitter">p</i>
+                                <i class="fab fa-twitter"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-google">p</i>
+                                <i class="fab fa-google"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-Linkedin-in">p</i>
+                                <i class="fab fa-Linkedin-in"></i>
                             </a>
                         </div>
                     </form>
@@ -76,16 +76,16 @@
                         
                         <div class="social-media">
                             <a href="" class="social-icon">
-                                <i class="fab fa-facebook">p</i>
+                                <i class="fab fa-facebook"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-twitter">p</i>
+                                <i class="fab fa-twitter"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-google">p</i>
+                                <i class="fab fa-google"></i>
                             </a>
                             <a href="" class="social-icon">
-                                <i class="fab fa-Linkedin-in">p</i>
+                                <i class="fab fa-Linkedin-in"></i>
                             </a>
                         </div>
                     </form>
