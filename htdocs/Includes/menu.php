@@ -19,7 +19,7 @@
             <li><a href="/index.php#services" class="menu-btn">Dernier-post</a></li>
             <!-- <li><a href="../login.php" class="menu-btn">conexion</a></li> -->
             <li><a href="/index.php#teams" class="menu-btn">teams</a></li>
-            <?= nav_item('/login.php', 'Connexion', "../login.php");?>
+            <?= nav_item('/login.php', 'Connexion', "../log_sign.php");?>
 
         </ul>
         <div class="menu-btn">

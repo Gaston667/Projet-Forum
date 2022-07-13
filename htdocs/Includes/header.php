@@ -14,7 +14,11 @@
     </title>
 
     <link rel="stylesheet" href="../assets/style.css">
-    <link rel="stylesheet" href="../assets/log.css">
+    <link rel="stylesheet" href="../assets/log_styles.css">
+
+    <!-- For Log -->
+    <script href="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
