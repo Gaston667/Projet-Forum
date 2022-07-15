@@ -3,10 +3,6 @@
     require "Includes/header.php";
 ?>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-
     <?php
         require 'Includes/menu.php' 
     ?>
@@ -18,7 +14,7 @@
                 <div class="text-1">Hello, bienvenue à</div>
                 <div class="text-2">Gnogué City</div>
                 <div class="text-3"><span class="typing"></span></div>
-                <a href="log_sign.php">Inscrivez-vous</a>
+                <a href="signin.php">Inscrivez-vous</a>
             </div>
         </div>
     </section>
@@ -29,12 +25,12 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/Gnogué emoji.png" alt="">
+                    <img src="/images/img/Gnogué emoji.png" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Je suis un site <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="/log_sign.php">Inscription</a>
+                    <a href="/signin.php">Inscription</a>
                 </div>
             </div>
         </div>
@@ -170,7 +166,7 @@
                 <a href="../Profile_1.php">
                 <div class="card">
                     <div class="box">
-                        <video autoplay muted="" loop="infinite" src="/images/img/Gnogué (2).mp4" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (1).mp4" alt="">
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>
@@ -179,7 +175,7 @@
                 <a href="../Profile_2.php">
                 <div class="card">
                     <div class="box">
-                        <video autoplay muted="" loop="infinite" src="/images/img/Gnogué (1).mp4" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (2).mp4" alt="">
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>

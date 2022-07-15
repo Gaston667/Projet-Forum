@@ -9,17 +9,19 @@
 ?>
 
 
-
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+</div>
 <nav class="navbar">
     <div class="max-width">
         <div class="logo"><a href="#">Gnogué <span>City.</span></a></div>
         <ul class="menu">
-            <?= nav_item('/index.php', 'home', "/index.php#home");?>
+            <li><a href="/index.php#home" class="menu-btn">home</a></li>
             <li><a href="/index.php#about" class="menu-btn">About</a></li>
             <li><a href="/index.php#services" class="menu-btn">Dernier-post</a></li>
-            <!-- <li><a href="../login.php" class="menu-btn">conexion</a></li> -->
             <li><a href="/index.php#teams" class="menu-btn">teams</a></li>
-            <?= nav_item('/login.php', 'Connexion', "../log_sign.php");?>
+            <?= nav_item('/login.php', 'Connexion', "../login.php");?>
+            <?= nav_item('/signin.php', 'Inscription', "../signin.php");?>
 
         </ul>
         <div class="menu-btn">

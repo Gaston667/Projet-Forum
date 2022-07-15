@@ -37,7 +37,7 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings: ["Votre site de commerage préféré", "Votre site rumeur préféré", 
         "Ne perdez plus de temps","Connectez-vous vite", 
-        "Inscrivez-vous pour commencer votre aventure"],
+        "Ou inscrivez-vous pour commencer votre aventure"],
         typeSpeed: 80,
         backSpeed: 30,
         loop: true
