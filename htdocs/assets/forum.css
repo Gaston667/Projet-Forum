@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    /* margin-top: 5000px; */
+    /* position: absolute; */
+    display: flex;
+    max-width: 1300px;
+    min-height: 100vh;
+    /* margin: auto; */
+    font-family: 'Poppins', sans-serif;
+}
+.aside_gauche{
+    border-right: 5px solid black;
+}
+/* ###################################################################### */
+
+
+
+/* ###################################################################### */
+.container_product{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+} 
+
+.card{
+    position: relative;
+    width: 400px;
+    background: rgb(255, 252, 252);
+    border-radius: 20px;
+    border: #d9d9d9 solid 1px;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.15);
+    margin: 20px 30px 5px 45px;
+}
+
+.card .content .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.card .content .details h4{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+.card .content .details h2 span{
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.card .content .details .data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.card .content .details .data h3 {
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.card .content .details .data h3 span{
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.card .content .details .actionbtn{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+.card .content .details .actionbtn button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: rgba(0, 254, 34, 0.8);
+    cursor: pointer;
+} 
+.card .content .details .actionbtn a:nth-child(2) button{
+    border: 1px solid #999;
+    background-color: rgba(255, 0, 0, 0.8);
+    border: none;
+}
+
+/* ###################################################################### */

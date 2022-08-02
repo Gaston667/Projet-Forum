@@ -44,8 +44,8 @@ if (isset($_POST['validate'])){
                     $_SESSION['pseudo'] = $usersInfos['pseudo'];
                     $_SESSION['email'] = $usersInfos['email'];
                     
-                    // Rediriger l'utilisateur vers la page Principal.
-                    header('Location: principal.php');
+                    // Rediriger l'utilisateur vers la page forum.
+                    header('Location: forum.php');
                 }else{
                     $msgError="Cet email existe déjà sur le site.";
                 }
@@ -58,5 +58,7 @@ if (isset($_POST['validate'])){
             $msgError= "Votre mot de passe ne corespond pas au mot de passe Entrez au niveau de confirme password
             .";
         }
+    }else{
+        $msgError ="Veuillez remplire les champs svp";
     }
 }

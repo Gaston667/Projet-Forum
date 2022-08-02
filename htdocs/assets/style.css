@@ -118,6 +118,7 @@ section .title::after{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    text-transform: capitalize;
 }
 .navbar .menu li a:hover{
     color: crimson;
@@ -304,6 +305,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content .card .span{
+   border: 1px solid cornsilk;
 }
 
 /* skills section styling */

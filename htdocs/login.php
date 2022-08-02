@@ -1,8 +1,10 @@
 <?php
+    $msgError = null;
     $title = "login";
     require "Includes/header.php";
+    require_once "actions/inscrip-connex-deconnex/traitementLogin.php"
 ?>
-<link rel="stylesheet" href="../assets/LS_style.css">
+<link rel="stylesheet" href="/assets/LS_style.css">
 <style>
     .navbar{
         position: fixed;
@@ -31,6 +33,10 @@
         align-items: center;
         margin-top: 100px;
     }
+    .msg{
+        color: red;
+        font-size: 1.2em;
+    }
 </style>
 <body>
     <?php
@@ -49,17 +55,19 @@
                     Veuillez fournir les informations d'identifications de connexion pour continuer et avoir accès à tous nos services. Merci.
                 </p>
             
-                <form class="login-form">
+                <form class="login-form" method="POST">
                     <div class="form-control">
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="pseudo" placeholder="Pseudo">
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="form-control">
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="password">
                         <i class="fas fa-lock"></i>
                     </div>
+                    <p class="msg"><?= $msgError ?></p>
+
                 
-                    <button class="submit">Login</button>
+                    <button class="submit" name="validate">Connexion</button>
                 </form>
             </div>
         </div>

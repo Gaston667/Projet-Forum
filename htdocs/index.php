@@ -11,7 +11,7 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, bienvenue à</div>
+                <div class="text-1">Salut, bienvenue à</div>
                 <div class="text-2">Gnogué City</div>
                 <div class="text-3"><span class="typing"></span></div>
                 <a href="signin.php">Inscrivez-vous</a>
@@ -47,8 +47,7 @@
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
+                        <div class="text"><span>18</span> Info  <span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -56,8 +55,7 @@
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Advertising</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
+                        <div class="text"><span>18</span> Info  <span>1</span> Intox</div>
                     </div>
                 </div>
                 <div class="card">
@@ -65,35 +63,7 @@
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Loreml ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                        <div class="text"><span>18</span> Info</div>
-                        <div class="text"><span>1</span> Intox</div>
+                        <div class="text"><span>18</span> Info  <span>1</span> Intox</div>
                     </div>
                 </div>
             </div>
@@ -113,7 +83,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Nom</div>
-                                <div class="sub-title">Anonymous boy</div>
+                                <div class="sub-title">Anonymous team</div>
                             </div>
                         </div>
                         <div class="row">
@@ -166,7 +136,7 @@
                 <a href="../Profile_1.php">
                 <div class="card">
                     <div class="box">
-                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (1).mp4" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (1).mp4" alt=""></video>
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>
@@ -175,7 +145,7 @@
                 <a href="../Profile_2.php">
                 <div class="card">
                     <div class="box">
-                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (2).mp4" alt="">
+                        <video autoplay muted="" loop="infinite" src="/images/video/Gnogué (2).mp4" alt=""></video>
                         <div class="text">Anonymous</div>
                         <p>Désolé, mais mon identité doit rester secrète.</p>
                     </div>

@@ -16,12 +16,17 @@
     <div class="max-width">
         <div class="logo"><a href="#">Gnogué <span>City.</span></a></div>
         <ul class="menu">
-            <li><a href="/index.php#home" class="menu-btn">home</a></li>
-            <li><a href="/index.php#about" class="menu-btn">About</a></li>
+            <li><a href="/index.php#home" class="menu-btn">Accueille</a></li>
+            <li><a href="/index.php#about" class="menu-btn">à propos</a></li>
             <li><a href="/index.php#services" class="menu-btn">Dernier-post</a></li>
-            <li><a href="/index.php#teams" class="menu-btn">teams</a></li>
-            <?= nav_item('/login.php', 'Connexion', "../login.php");?>
-            <?= nav_item('/signin.php', 'Inscription', "../signin.php");?>
+            <li><a href="/index.php#teams" class="menu-btn">équipe</a></li>
+            <?php if ($_SERVER['SCRIPT_NAME'] !== '/forum.php'):?>
+                <?= nav_item('/login.php', 'Connexion', "../login.php");?>
+                <?= nav_item('/signin.php', 'Inscription', "../signin.php");?>
+            <?php endif?>
+            <?php if ($_SERVER['SCRIPT_NAME'] === '/forum.php'):?>
+                <?= nav_item('/logout.php', 'Déconnexion', "..\actions\inscrip-connex-deconnex\logout.php");?>
+            <?php endif?>
 
         </ul>
         <div class="menu-btn">
