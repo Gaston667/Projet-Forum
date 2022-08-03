@@ -1,7 +1,7 @@
 <?php
     $title = "Forum";
     require "Includes/header.php";
-    require "actions/security.php"
+    // require "actions/security.php"
 ?>
 <link rel="stylesheet" href="/assets/forum.css">
 <style>
@@ -21,13 +21,15 @@
     ?>
 
     <section class="section">
+    <div class="bntp"><a href="posty.php"><Button>Balancer une rumeur</Button></a></div>
+    <div class="container_aside">
         <aside class="aside_gauche">
             <div class="container_product">
                 <!-- {% for product in products %} -->
                 <div class="card"> 
                     <div class="content">
                          <div class="details">
-                             <h2>{{ Titre du poste }}<br><span>id #6</span></h2>
+                             <h2>la terre est envehie<br><span>id #6</span></h2>
                              <div class="data">
                                  <h3>askip que dramer est un extra-terrestre.<!--<br><span>Prix</span>--></h3>
                                  <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
@@ -36,12 +38,10 @@
                              <div class="actionbtn">
                                 <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
                                 <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
-
                              </div>
                          </div>
                      </div>
                 </div>    
-
                 <div class="card"> 
                     <div class="content">
                          <div class="details">
@@ -54,35 +54,95 @@
                              <div class="actionbtn">
                                 <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
                                 <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
-
                              </div>
                          </div>
                      </div>
                 </div>   
-
                 <div class="card"> 
                     <div class="content">
-                         <div class="details">
-                             <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
-                             <div class="data">
-                                 <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
-                                 <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
-                                 <h3 class="quality">A+<br><span>Quality</span></h3> -->
-                             </div>
-                             <div class="actionbtn">
-                                <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
-                                <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
-
-                             </div>
-                         </div>
-                     </div>
+                        <div class="details">
+                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <div class="data">
+                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
+                                <h3 class="quality">A+<br><span>Quality</span></h3> -->
+                            </div>
+                            <div class="actionbtn">
+                               <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
+                               <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
+                            </div>
+                        </div>
+                    </div>
                 </div>    
+                <div class="card"> 
+                    <div class="content">
+                        <div class="details">
+                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <div class="data">
+                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
+                                <h3 class="quality">A+<br><span>Quality</span></h3> -->
+                            </div>
+                            <div class="actionbtn">
+                               <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
+                               <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="card"> 
+                    <div class="content">
+                        <div class="details">
+                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <div class="data">
+                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
+                                <h3 class="quality">A+<br><span>Quality</span></h3> -->
+                            </div>
+                            <div class="actionbtn">
+                               <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
+                               <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="card"> 
+                    <div class="content">
+                        <div class="details">
+                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <div class="data">
+                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
+                                <h3 class="quality">A+<br><span>Quality</span></h3> -->
+                            </div>
+                            <div class="actionbtn">
+                               <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
+                               <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="card"> 
+                    <div class="content">
+                        <div class="details">
+                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <div class="data">
+                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
+                                <h3 class="quality">A+<br><span>Quality</span></h3> -->
+                            </div>
+                            <div class="actionbtn">
+                               <a href="{{ product.get_absolute_url }}"><button><span>8 </span>Info</button></a>
+                               <a href="{% url 'add-to-cart_index' product.slug %}"><button><span>19 </span>Intox</button></a>                                   
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </div>
         </aside>
         <aside class="aside_droite">
-
         </aside>
-    </section>
-    
+    </div>
+</section> 
     
 <?php require "Includes/footer.php";?>
