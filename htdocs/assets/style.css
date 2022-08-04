@@ -688,6 +688,25 @@ footer span a:hover{
     }
 }
 
+.chat{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 35px;
+    color: #fff;
+    display: none;
+    /* font-size: 23px;
+    cursor: pointer;
+    display: none;
+    background: #000; */
+}
+
+@media (max-width: 940px){
+   .chat{
+    display: block;
+   }
+}
+
 @media (max-width: 361px){
     section .title::after {
         bottom: -22px;

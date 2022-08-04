@@ -15,12 +15,12 @@ body{
 }
 .container_aside{
     display: flex;
-
+    width: 100%;
 }
 
 .bntp a button{
     margin-top: 30px;
-    margin-left:50%;
+    margin-left: 300px;
     padding: 10px 30px;
     border-radius: 5px;
     border: none;
@@ -38,6 +38,7 @@ body{
     height: 500px;
     margin-top: 50px;
     overflow: scroll;
+    width: 1000px;
 }
 /* ###################################################################### */
 
@@ -45,7 +46,7 @@ body{
 
 /* ###################################################################### */
 .container_product{
-    /* margin: auto; */
+    margin: 0 0 0 30px;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -116,3 +117,309 @@ body{
 }
 
 /* ###################################################################### */
+
+.aside_droite{
+    position: absolute;
+    left: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_chat{
+    width: 400px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    background-color: dodgerblue;
+}
+
+.heade h1{
+    color: white;
+    padding: 15px;
+}
+
+.bod{
+    flex: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 30px;
+}
+
+.message{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.user_message{
+    margin-left: auto;
+    background-color: white;
+    color: black;
+}
+
+.foote form{
+    display: flex;
+}
+
+form input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+form button{
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blue;
+    transition: 0.2s ease;
+}
+
+
+@media (max-width:1525px) {
+    .aside_droite{
+        left: 1030px;
+    }
+
+    .aside_gauche{
+        width: 960px;
+    }
+}
+
+@media (max-width:1450px) {
+    .aside_droite{
+        left: 1000px;
+    }
+
+    .aside_gauche{
+        width: 920px;
+    }
+}
+@media (max-width:1420px){
+    .aside_droite{
+        left: 970px;
+    }
+}
+@media (max-width:1380px){
+    .aside_droite{
+        left: 920px;
+    }
+
+    .aside_gauche{
+        width: 880px;
+    }
+
+    .container_product{
+        margin: 0 0 0 10px;
+    }
+}
+
+@media (max-width:1330px) {
+    .aside_droite{
+        left: 900px;
+    }
+
+    .container_product{
+        margin: 0 0 0 0px;
+    }
+}
+
+@media (max-width:1310px) {
+    .aside_droite{
+        left: 800px;
+    }
+
+    .aside_gauche{
+        width: 650px;
+    }
+
+    .container_product{
+        margin: 0 0 0 80px;
+    }
+}
+
+@media (max-width:1230px) {
+    .aside_droite{
+        left: 700px;
+    }
+
+    .aside_gauche{
+        width: 600px;
+    }
+
+    .container_product{
+        margin: 0 0 0 80px;
+    }
+}
+
+@media (max-width:1120px) {
+    .aside_droite{
+        left: 600px;
+    }
+
+    .aside_gauche{
+        width: 550px;
+    }
+
+    .container_product{
+        margin: 0 0 0 20px;
+    }
+}
+
+@media (max-width:1230px) {
+    .aside_droite{
+        left: 700px;
+    }
+
+    .aside_gauche{
+        width: 600px;
+    }
+
+}
+
+@media (max-width:1120px) {
+    .aside_droite{
+        left: 600px;
+    }
+
+    .aside_gauche{
+        width: 560px;
+    }
+
+    .bntp a button{
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:1020px) {
+    .aside_droite{
+        left: 560px;
+    }
+
+    .aside_gauche{
+        width: 490px;
+    }
+}
+@media (max-width:975px) {
+    .aside_droite{
+        left: 520px;
+    }
+}
+
+@media (max-width:940px) {
+    .aside_droite{
+        /* display: none; */
+        left: 0;
+        top: 100px;
+        backdrop-filter: blur(7px);
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100vh;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-chat{
+        margin-left: 0;
+    }
+
+    .container_chat{
+        margin-top: -100px;
+    }
+
+    .aside_gauche{
+        width: 100%;
+    }
+
+    .bntp a button{
+        margin-left: 330px;
+    }
+
+    .container_product{
+        margin: 0 0 0 30px;
+    }
+}
+
+@media (max-width:911px) {
+    .aside_gauche{
+        width: 95%;
+    }
+
+
+    .container_product{
+        margin: 0 0 0 240px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .container_product{
+        margin: 0 0 0 140px;
+    }
+    .bntp a button{
+        margin-left: 230px;
+    }
+}
+
+@media (max-width:660px) {
+    .container_product{
+        margin: 0 0 0 60px;
+    }
+    .bntp a button{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:530px) {
+    .container_product{
+        margin: 0 0 0 0px;
+    }
+    .bntp a button{
+        margin-left: 85px;
+    }
+}
+@media (max-width:395px) {
+    .bntp a button{
+        margin-left: 50px;
+    }
+
+    .card{
+        width: 270px;
+        background: rgb(255, 252, 252);
+        border-radius: 20px;
+        margin: 10px 15px 5px 15px;
+    }
+}
+@media (max-width:376px) {
+
+    .card{
+        width: 250px;
+        margin: 10px 0px 5px 15px;
+    }
+    .card .content .details .actionbtn button{
+        padding: 5px 10px;
+        font-size: 1em;    
+    } 
+    .bntp a button{
+        margin-left: 20px;
+    }
+
+    .container_product{
+        margin: 0 0 0 90px;
+    }
+}

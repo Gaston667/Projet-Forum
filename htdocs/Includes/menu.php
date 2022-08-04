@@ -14,7 +14,7 @@
 </div>
 <nav class="navbar">
     <div class="max-width">
-        <div class="logo"><a href="#">Gnogué <span>City.</span></a></div>
+        <div class="logo"><a href="index.php#home">Gnogué <span>City.</span></a></div>
         <ul class="menu">
             <li><a href="/index.php#home" class="menu-btn">Accueille</a></li>
             <li><a href="/index.php#about" class="menu-btn">à propos</a></li>
@@ -29,8 +29,9 @@
             <?php endif?>
 
         </ul>
+        <span class="chat">C</span>
         <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars">I</i>
         </div>
     </div>
 </nav>

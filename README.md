@@ -43,13 +43,25 @@ Reprise de projet.
 
 
 # Planing
+    
+    /*
+    Date d'ajout: 13/07/2022 
+    Motif: creation de la page de poste.
+    fichier:  Créer un nouveau fichier .php dans /htdocs
+    Job de: # PELLEL #
+    Délais: 100H
+    Statu: ......
+    Date FIn:.....
+    Qualiter:.....
+    commentaires:.....
+    */
    
     /*
     Date d'ajout: 13/07/2022 
     Motif: Création de la page forgot password qui doit être ultra responsive et Création du card profil qui doit être ultra responsive.
     fichier:  Créer de nouveau fichier .php dans /htdocs
     Job de: # HASSIMIOU #
-    Délais: 72H
+    Délais: 5J
     Statu: ......
     Date FIn:.....
     Qualiter:.....

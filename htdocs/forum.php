@@ -125,9 +125,10 @@
                 <div class="card"> 
                     <div class="content">
                         <div class="details">
-                            <h2>{{ Titre du poste }}<br><span>id #4</span></h2>
+                            <h2>Rapada<br><span>id #4</span></h2>
                             <div class="data">
-                                <h3>Marc pruvost a démission.<!--<br><span>Prix</span>--></h3>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis, in suscipit praesentium quod accusantium laudantium et itaque modi quas necessitatibus explicabo expedita delectus nostrum ratione unde voluptas. Fuga quidem vel, rerum odio aspernatur porro harum 
+                                est minus fugit accusantium facilis sapiente, sunt magni dicta eius officia molestias reiciendis non?<!--<br><span>Prix</span>--></h3>
                                 <!-- <h3>{{ product.stock }}<br><span>Stock</span></h3>
                                 <h3 class="quality">A+<br><span>Quality</span></h3> -->
                             </div>
@@ -141,6 +142,21 @@
             </div>
         </aside>
         <aside class="aside_droite">
+            <div class="container_chat">
+                <div class="heade">
+                    <h1>WebChat</h1>
+                </div>
+                <div class="bod">
+                    <p class="message">Salut!</p>
+                    <p class="message user_message">ça va?</p>
+                </div>
+                <div class="foote">
+                    <form action="">
+                        <input type="text" name="">
+                        <button>Envoyer</button>
+                    </form>
+                </div>
+            </div>
         </aside>
     </div>
 </section> 
