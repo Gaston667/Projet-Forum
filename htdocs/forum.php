@@ -1,7 +1,22 @@
 <?php
     $title = "Forum";
     require "Includes/header.php";
-    // require "actions/security.php"
+    require "actions/BDD.php";
+    require "actions/security.php";
+
+    $msg = null;
+
+    if(isset($_POST['valider'])){
+        if(!empty($_POST['msgTextarea'])){
+            $insertMsgInBdd = $bdd->prepare('INSERT INTO msgchat(pseudo, message) VALUES(?, ?)');
+            $insertMsgInBdd->execute(array($_SESSION['pseudo'], nl2br(htmlspecialchars($_POST['msgTextarea']))));
+        }else{
+            $msg = "Veuillez remplire les champs";
+        }
+    }
+
+
+ 
 ?>
 <link rel="stylesheet" href="/assets/forum.css">
 <style>
@@ -142,18 +157,18 @@
             </div>
         </aside>
         <aside class="aside_droite">
+            <p style="color: red; margin-bottom: 10px;"> <?= $msg ?> </p>
             <div class="container_chat">
                 <div class="heade">
                     <h1>WebChat</h1>
                 </div>
-                <div class="bod">
-                    <p class="message">Salut!</p>
-                    <p class="message user_message">ça va?</p>
+                <div id='bod' class="bod">
+                
                 </div>
                 <div class="foote">
-                    <form action="">
-                        <input type="text" name="">
-                        <button>Envoyer</button>
+                    <form action="" method="POST">
+                        <textarea name="msgTextarea" id="" ></textarea>
+                        <button name="valider">Envoyer</button>
                     </form>
                 </div>
             </div>

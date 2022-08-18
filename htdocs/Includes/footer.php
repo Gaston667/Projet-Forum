@@ -4,7 +4,7 @@
     </footer>
 
     <!-- For login files -->
-    <script src="/assets/app.js"></script>
+    <script src="../assets/script.js"></script>
     <script>
         const chat = document.querySelector(".chat")
         const aside_droite = document.querySelector(".aside_droite")
@@ -12,6 +12,11 @@
         chat.addEventListener('click',()=>{
             aside_droite.classList.toggle('mobile-chat')
         })
+
+        setInterval('load_messages()', 500);
+        function load_messages(){
+            $('#bod').load('../bloc-chat.php')
+        }
     </script>
 
 

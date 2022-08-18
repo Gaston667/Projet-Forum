@@ -29,9 +29,13 @@
             <?php endif?>
 
         </ul>
-        <span class="chat">C</span>
+        <div class="chat">
+        <ion-icon name="chatbubbles-outline"></ion-icon>
+        <!-- <ion-icon name="logo-wechat"></ion-icon> -->
+        </div>
+        
         <div class="menu-btn">
-            <i class="fas fa-bars">I</i>
+            <i class="fas fa-bars"></i>
         </div>
     </div>
 </nav>
